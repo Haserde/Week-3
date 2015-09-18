@@ -9,6 +9,6 @@ public class moveExplodingCube : MonoBehaviour {
 		//move up through scene
 		//transform.position = transform.position + a little up
 		transform.position = transform.position + Vector3.up * speed * Time.deltaTime;
-		//move up at speed unit[s] per second 
+		//move up at 											unit[s] per second 
 	}
 }

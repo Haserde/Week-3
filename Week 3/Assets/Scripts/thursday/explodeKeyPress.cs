@@ -14,6 +14,6 @@ public class explodeKeyPress : MonoBehaviour {
 	
 	void OnDestroy() {
 		Debug.Log("this is dead!");
-			Instantiate( Explosion, transform.position, transform.rotation);
+			Instantiate (Explosion, transform.position, transform.rotation);
 	}
 }
